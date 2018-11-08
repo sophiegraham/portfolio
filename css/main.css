@@ -1,24 +1,36 @@
+@media screen and (max-width: 1100px){
+    
+}
+header {
+  grid-area: header;
+  background-color: blue;
+}
 body {
     display: grid;
-    grid-template-columns: 2fr;
+    width: 75vw;
     grid-template-areas: "header header"
                         "content content"
                         "footer footer";
   }
   
-  header {
-    grid-area: header;
-    height: 300px;
-  }
   .navContainer {
     display: flex;
     justify-content: space-around
   }
 
-  main {
+main {
+    background-color: aquamarine;
     grid-area: content;
-  }
+
+}
+    .titlePage {
+        color: purple;
+        display: flex;
+        justify-content: space-around
+       
+    }
 
   footer {
+    background-color: orange;
     grid-area: footer;
   }
