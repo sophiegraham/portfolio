@@ -1,18 +1,26 @@
 {
-    "name": "portfolio",
-    "version": "1.0.0",
-    "main": "postcss.config.js",
-    "scripts": {
-      "build:css": "postcss css/*.css -d build/css --watch"
-    },
-    "keywords": [],
-    "author": "Sophie Graham",
-    "license": "ISC",
-    "devDependencies": {
-      "autoprefixer": "^9.3.1",
-      "postcss-cli": "^6.0.1",
-      "postcss-nested": "^4.1.0",
-      "postcss-simple-vars": "^5.0.1"
-    },
-    "description": ""
-  }
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build:css": "postcss css/*.css -d build/css --watch"
+  },
+  "keywords": [],
+  "author": "Sophie Graham",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "postcss-cli": "^6.0.1",
+    "postcss-nested": "^4.1.0",
+    "postcss-simple-vars": "^5.0.1"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiegraham/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sophiegraham/portfolio/issues"
+  },
+  "homepage": "https://github.com/sophiegraham/portfolio#readme"
+}
