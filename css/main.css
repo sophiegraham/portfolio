@@ -1,59 +1,49 @@
 @media screen and (max-width: 1100px){
-
 }
 
 * {
     margin: 0;
 }
 
+
+
 header {
   grid-area: header;
   background-color: #969948;
   height: 100px;
 }
+
 body {
     display: grid;
     grid-template-areas: "header header"
                         "content content"
                         "footer footer";
-  }
+}
   
   .navContainer {
     display: flex;
     justify-content: space-around;
     align-items: flex-end
   }
-  .home:hover {
-	width: 40px;
-	height: 30px;
-	top: 50%;
-	left: 50%;
-	background-color: #65672B;
-	box-shadow: inset 0 0 0 3px;
+  a:link {
+    text-decoration: none;
+    color: black;
   }
-  .about:hover {
-	width: 50px;
-	height: 40px;
-	top: 50%;
-	left: 50%;
-	background-color: #65672B;
-	box-shadow: inset 0 0 0 3px;
+  a:visited {
+    text-decoration: none;
+    color: black;
   }
-  .contact:hover {
-	width: 50px;
-	height: 40px;
+  a:hover {
 	top: 50%;
 	left: 50%;
-	background-color: #65672B;
-	box-shadow: inset 0 0 0 3px;
+    color: peru;
+    text-decoration: none;
   }
-  .projects:hover {
-	width: 40px;
-	height: 30px;
+  a:active {
 	top: 50%;
 	left: 50%;
-	background-color: #65672B;
-	box-shadow: inset 0 0 0 3px;
+    text-decoration: none;
+    color: black;
   }
 
 main {
@@ -64,7 +54,7 @@ main {
 
 }
     .titlePage {
-        color: purple;
+        color: black;
         display: flex;
         justify-content: space-around
        
@@ -75,11 +65,10 @@ main {
         grid-template-areas: "project project"
                             "project project";
         
-    }
-    
+    } 
 
-  footer {
+footer {
     background-color: orange;
     grid-area: footer;
-    height: 150px;
-  }
+    height: 100px;
+}
