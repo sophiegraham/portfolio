@@ -1,16 +1,17 @@
+/* mobile */
 @media screen and (max-width: 1100px){
 }
 
+/* for all */
 * {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
-
-
 
 header {
   grid-area: header;
   background-color: #969948;
-  height: 100px;
+  height: 70px;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
                         "content content"
                         "footer footer";
 }
-  
+/* navigation bar */
   .navContainer {
     display: flex;
     justify-content: space-around;
@@ -53,12 +54,25 @@ main {
     height: 600px;
 
 }
+/* home page */
     .titlePage {
         color: black;
         display: flex;
         justify-content: space-around
        
     }
+
+/* about me page */
+    .headshot {
+        border-radius: 50%;
+        float: left;
+    }
+    .bio {
+        
+       
+    }
+
+/* projects page */
 
     .projects {
         display: grid;
