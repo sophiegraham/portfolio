@@ -54,6 +54,9 @@ main {
 
 }
 /* home page */
+    .title {
+        
+    }
     .titlePage {
         color: black;
         display: flex;
@@ -77,9 +80,10 @@ main {
         border: 16px solid #000;
         text-align: center;
     }
+/* contact me page */
+    
 
 /* projects page */
-
     .projects {
         display: grid;
         grid-template-areas: "project-image project"
