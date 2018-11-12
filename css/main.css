@@ -37,7 +37,7 @@ body {
   a:hover {
 	top: 50%;
 	left: 50%;
-    color: peru;
+    color: white;
     text-decoration: none;
   }
   a:active {
@@ -49,7 +49,6 @@ body {
 
 main {
     background: url('../images/beige.jpg');
-    background-color: aquamarine;
     grid-area: content;
     height: 600px;
 
@@ -63,13 +62,20 @@ main {
     }
 
 /* about me page */
+    .bio-page {
+        display: flex;
+        justify-content: center, space-evenly;
+        align-items: flex-start;
+    }
     .headshot {
         border-radius: 50%;
         float: left;
     }
     .bio {
-
-       
+        display: inline-block;
+        width: 400px;
+        border: 16px solid #000;
+        text-align: center;
     }
 
 /* projects page */
@@ -87,9 +93,3 @@ main {
         width: 300px;
         height: auto;
     }
-
-footer {
-    background-color: orange;
-    grid-area: footer;
-    height: 75px;
-}
