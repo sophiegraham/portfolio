@@ -68,7 +68,7 @@ main {
         float: left;
     }
     .bio {
-        
+
        
     }
 
@@ -76,13 +76,20 @@ main {
 
     .projects {
         display: grid;
-        grid-template-areas: "project project"
-                            "project project";
+        grid-template-areas: "project-image project"
+                             "project-image project";
         
     } 
+    .project-image {
+        display: grid;
+        grid-template-areas: "project-image project"
+                             "project-image project";
+        width: 300px;
+        height: auto;
+    }
 
 footer {
     background-color: orange;
     grid-area: footer;
-    height: 100px;
+    height: 75px;
 }
