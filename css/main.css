@@ -17,8 +17,7 @@ header {
 body {
     display: grid;
     grid-template-areas: "header header"
-                        "content content"
-                        "footer footer";
+                        "content content";
 }
 /* navigation bar */
   .navContainer {
@@ -55,7 +54,7 @@ main {
 }
 /* home page */
     .title {
-        
+
     }
     .titlePage {
         color: black;
@@ -81,7 +80,28 @@ main {
         text-align: center;
     }
 /* contact me page */
-    
+    .contact-form {
+        display: grid;
+        grid-template-areas:"header header"
+                            "title title"
+                            "content content";
+    }
+    .contact-info {
+        display: grid;
+        grid-template-areas:"header header"
+                            "title title"
+                            "content content";
+    }
+    .contact-me {
+        display: grid;
+        grid-template-areas:"header header"
+                            "title title"
+                            "content content";
+        display: inline-block;
+        width: 250px;
+        border: 15px solid #000;
+        text-align: center;
+    }
 
 /* projects page */
     .projects {
